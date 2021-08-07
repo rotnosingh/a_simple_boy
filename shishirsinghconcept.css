@@ -1,0 +1,44 @@
+/* Common Style*/
+
+html,body {margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+ul  {margin:0;padding:0;}
+
+header,nav,section,aside,footer,article  {display:block;overflow:hidden}
+
+
+/*Container*/
+
+#container{ width:900px;margin:0 auto;display:block}
+
+
+/*Top Header*/
+
+header{background:#c9c9c9;padding:20px 28px;}
+header>img{width:170px;float:left;
+}
+header>img> p {float:left;width:200px;border:none;
+}
+h1{padding:32px;padding-bottom:0px;padding-left:200px;color:white;text-shadow: 1px 1px 1px #000;
+}
+nav {background:#b4b4b4;
+}
+nav>ul{list-style:none}
+nav>ul>li{display:inline}
+nav>ul>li>a{text-decoration:none;color:#fff;border-right:2px solid #c6c6c6;padding:10px 20px;}
+section {width:900px;background:#c9c9c9;
+}
+section article {width:480px;float:left;
+}
+section img {float:left;width:400px;
+}
+section ul {padding-left:10px;}
+section ul li { 
+}
+article {padding:10px
+}
+aside{width:900px;background:#c9c9c9;text-align:center;
+}
+footer{width:100%;background:#bfbfbf;
+}
+
